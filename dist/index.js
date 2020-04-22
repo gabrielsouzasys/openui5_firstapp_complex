@@ -1,0 +1,12 @@
+sap.ui.define("fitst/index", ["sap/m/Shell", "sap/ui/core/ComponentContainer", "fitst/Component"], function (Shell, ComponentContainer, Component) {
+  var _default = {};
+  sap.ui.getCore().boot();
+  var container = new Shell({
+    app: new ComponentContainer({
+      component: new Component()
+    })
+  });
+  container.placeAt("content");
+  return _default;
+})
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbInNhcCIsInVpIiwiZ2V0Q29yZSIsImJvb3QiLCJjb250YWluZXIiLCJTaGVsbCIsImFwcCIsIkNvbXBvbmVudENvbnRhaW5lciIsImNvbXBvbmVudCIsIkNvbXBvbmVudCIsInBsYWNlQXQiXSwibWFwcGluZ3MiOiI7O0FBSUFBLEVBQUFBLEdBQUcsQ0FBQ0MsRUFBSixDQUFPQyxPQUFQLEdBQWlCQyxJQUFqQjtBQUVBLE1BQUlDLFNBQVMsR0FBRyxJQUFJQyxLQUFKLENBQVU7QUFBRUMsSUFBQUEsR0FBRyxFQUFFLElBQUlDLGtCQUFKLENBQXVCO0FBQUVDLE1BQUFBLFNBQVMsRUFBRSxJQUFJQyxTQUFKO0FBQWIsS0FBdkI7QUFBUCxHQUFWLENBQWhCO0FBRUFMLEVBQUFBLFNBQVMsQ0FBQ00sT0FBVixDQUFrQixTQUFsQiIsInNvdXJjZVJvb3QiOiIvc291cmNlbWFwcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBTaGVsbCBmcm9tIFwic2FwL20vU2hlbGxcIjtcbmltcG9ydCBDb21wb25lbnRDb250YWluZXIgZnJvbSBcInNhcC91aS9jb3JlL0NvbXBvbmVudENvbnRhaW5lclwiO1xuaW1wb3J0IENvbXBvbmVudCBmcm9tIFwiLi9Db21wb25lbnRcIjtcblxuc2FwLnVpLmdldENvcmUoKS5ib290KCk7XG5cbnZhciBjb250YWluZXIgPSBuZXcgU2hlbGwoeyBhcHA6IG5ldyBDb21wb25lbnRDb250YWluZXIoeyBjb21wb25lbnQ6IG5ldyBDb21wb25lbnQoKSB9KSB9KTtcblxuY29udGFpbmVyLnBsYWNlQXQoXCJjb250ZW50XCIpOyJdLCJmaWxlIjoiaW5kZXguanMifQ==
